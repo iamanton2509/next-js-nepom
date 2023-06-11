@@ -1,0 +1,71 @@
+.container {
+  max-width: 1270px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: rgb(227, 89, 119);
+}
+.header a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+.active {
+  color: rgb(190, 44, 76) !important;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: rgb(227, 89, 119);
+  color: #f6f6f6;
+}
+.loading__container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 100px 0;
+  border: 2px dashed rgb(227, 89, 119);
+  border-radius: 50%;
+  animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
+.google-button {
+  display: block;
+  padding: 8px 20px;
+  margin: 3px 0;
+  background-color: rgb(51, 129, 194);
+  border: 1.5px solid rgb(51, 129, 194);
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.google-button:hover {
+  background-color: rgb(26, 111, 181);
+  border: 1.5px solid rgb(26, 111, 181);
+}
+.input {
+  display: block;
+  padding: 4px 7px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid rgb(51, 129, 194);
+}
+.input:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(26, 111, 181);
+}
