@@ -19,9 +19,9 @@ import PostSearch from '@/components/PostSearch';
 //     return response.json();
 // }
 
-export const metadata: Metadata = {
-    title: "Blog | Create Next App"
-}
+// export const metadata: Metadata = {
+//     title: "Blog | Create Next App"
+// }
 // export default async function Blog()
 export default function Blog() {
     // const posts = await getData();
